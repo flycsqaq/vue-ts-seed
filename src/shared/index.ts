@@ -1,7 +1,7 @@
-import Home from './Home.vue';
-import About from './About.vue';
+import AppFooter from './AppFooter.vue';
+import AppHeader from './AppHeader.vue';
 
 export {
-  Home,
-  About,
+  AppFooter,
+  AppHeader,
 };
