@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import VueRx from 'vue-rx';
 import App from './App.vue';
-import router from './router';
-import store from './store';
-import './registerServiceWorker';
+import router from '@/router';
+import store from '@/store';
+import '@/registerServiceWorker';
 import 'normalize.css/normalize.css';
 import './styles/index.css';
 

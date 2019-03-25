@@ -1,6 +1,6 @@
 <template>
   <footer>
-    5567
+    footer
   </footer>
 </template>
 <script lang="ts">

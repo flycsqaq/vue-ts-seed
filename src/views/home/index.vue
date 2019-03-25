@@ -1,6 +1,6 @@
 <template>
   <h1>
-    HelloWorld
+    Home
   </h1>
 </template>
 <script lang="ts">

@@ -5,7 +5,16 @@ module.exports = {
     port: 9099,
     https: false,
     hotOnly: false,
-    proxy: null, // 设置代理
+    proxy: {
+      '/douban': {
+        target: 'https://api.douban.com/v2/movie',
+        changeOrigin: true,
+        ws: true,
+        pathRewrite: {
+          '^/douban': '',
+        },
+      },
+    },
     before: () => {},
   },
 };
