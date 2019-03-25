@@ -28,40 +28,15 @@ vue有路由预加载功能吗
 根据$router.options.routes创建header, 
 todo: header关联子路由。
 
-## Project setup
-```
-npm install 
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## TypeScript
+[github](https://github.com/kaorun343/vue-property-decorator)
+### 1. vue-class-component
+1. Components
+2. Minxins
+### 2. vue-property-decorator
+1. Prop
+2. Model
+3. Watch
+4. Emit
+5. Inject
+6. Provide
